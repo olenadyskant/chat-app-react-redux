@@ -1,0 +1,29 @@
+.sidebar {
+  grid-area: sidebar;
+  padding: 10px 0 0 20px;
+  border-right: 1px solid #c7c7c7;
+  height: 100%;
+}
+
+.users-wrapper {
+  height: 100%;
+  padding: 15px 22px;
+  width: 97%;
+  border-radius: 19px;
+  -webkit-box-shadow: inset 7px 10px 44px 3px rgba(219, 247, 252, 1);
+  -moz-box-shadow: inset 7px 10px 44px 3px rgba(219, 247, 252, 1);
+  box-shadow: inset 7px 10px 44px 3px rgba(219, 247, 252, 1);
+}
+
+h3 {
+  padding-bottom: 10px;
+}
+
+.online-users {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.online-users li {
+  padding: 2px 0;
+}
